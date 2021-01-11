@@ -1,8 +1,4 @@
 // Add your custom javascript here
-console.log("Hi from Federalist");
-
-mermaid.initialize({startOnLoad:true, theme: null}, ".someOtherClass");
-
 var sideNavParents = document.querySelectorAll(".usa-sidenav__item--parent-item");
 var sideNavChild = document.querySelectorAll(".usa-sidenav__sublist--middle-generation");
 var subLists = document.querySelectorAll("ul.usa-sidenav__sublist");
@@ -10,7 +6,6 @@ var middleSubList = document.querySelectorAll(".usa-sidenav__sublist ul");
 
 anchors.add('h2');
 anchors.add('h3');
-
 
 function openCurrentSubNav(self){
     //Toggle the attribute
