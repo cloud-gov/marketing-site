@@ -1,11 +1,7 @@
 ---
-parent: pricing
 layout: page
-sidenav: true
-title: Try a free sandbox space
-redirect_from:
-  - /overview/pricing/free-limited-sandbox/
-  - /docs/pricing/free-limited-sandbox/
+title: Get started
+permalink: /get-started/
 ---
 
 A sandbox is a free space that you can use to see if cloud.gov might suit your team’s needs. From the setup process through deploying an app, it works similarly to other spaces that are included in [paid access packages]({{ site.baseurl }}/pricing/), with [some limitations](#sandbox-limitations).
