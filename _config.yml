@@ -38,48 +38,44 @@ dap_subagency: TTS,cloud.gov
 
 # Site Navigation
 primary_navigation:
-  - name: Why cloud.gov?
-    key: overview
+  - name: About cloud.gov
+    key: about
     children:
       - name: Overview
-        url: /docs/overview/what-is-cloudgov/
-      - name: We’re FedRAMP authorized
-        url: /docs/overview/fedramp-tracker/
-      - name: Applications we support
-        url: /docs/overview/portfolio-analysis/
-      - name: Benefits of PaaS
-        url: /docs/technology/responsibilities/
-      - name: Our team
-        url: /docs/overview/cloudgov-team/
-  - name: Get started
-    url: /sign-up/
+        url: /overview/
+      - name: Security and compliance
+        url: /security-and-compliance/
   - name: Pricing
     key: pricing
     children:
-      - name: Pricing
+      - name: Pricing and billing
         url: /pricing/
-      - name: Try a Free Sandbox
-        url: /docs/pricing/free-limited-sandbox/
-      - name: Quota Costs Billing & Limits
-        url: /docs/pricing/quotas/
+      - name: Procurement
+        url: /procurement/
       - name: Support Packages
         url: /support-packages/
-  - name: Documentation
-    key: docs
+  - name: cloud.gov products
+    key: products
     children:
-    - name: Deploying apps
-      url: /docs/deployment/deployment/
-    - name: Managing apps
-      url: /docs/management/plugins/
-    - name: Managing orgs
-      url: /docs/orgs-spaces/dashboard/
-    - name: cloud.gov team documentation
-      url: /docs/ops/repos/
-  - name: Blog
-    url: /blog/
+    - name: cloud.gov platform
+      url: /platform/
+    - name: Federalist
+      url: /federalist/
+  - name: Get started
+    url: /get-started/
   - name: Contact us
     url: /contact/
 
+
+secondary_navigation:
+  - name: Documentation
+    url: https://cloud.gov/docs/
+  - name: Platform Status
+    url: https://cloudgov.statuspage.io/
+  - name: Blog
+    url: /blog/
+  - name: Log in
+    url: https://login.fr.cloud.gov/login
 # Search.gov configuration
 #
 # 1. Create an account with Search.gov https://search.usa.gov/signup
