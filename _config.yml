@@ -170,11 +170,10 @@ assets:
     - _assets/images/illustrations
     - assets/font-awesome/css
     - assets/font-awesome/fonts
+    - node_modules/anchor-js/
     - node_modules/uswds/dist/img
     - node_modules/uswds/dist/js
     - node_modules/uswds/dist/scss
-    - node_modules/mermaid/dist/
-    - node_modules/uswds/dist/js/uswds.min.js.map
     - node_modules/netlify-cms/dist
 
 ### plugin settings ###
